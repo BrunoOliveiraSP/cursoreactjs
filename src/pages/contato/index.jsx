@@ -1,4 +1,4 @@
-import './index.css'
+import './index.scss'
 
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ export default function Contato() {
                 <i className='fa fa-arrow-left voltar'></i>
             </Link>
 
-            <h1>Contato</h1>
+            <h1 className='titulo1'>Contato</h1>
             <img className='icone' src='/assets/images/contato.png' />
         </div>
     )
