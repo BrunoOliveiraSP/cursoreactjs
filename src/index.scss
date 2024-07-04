@@ -55,6 +55,10 @@ a,a:visited,a:link {
       outline: none;
     }
 
+    input[type=checkbox], input[type=radio] {
+      min-width: auto;
+    }
+
     button {
       background-color: #0084FF;
       color: #fff;
