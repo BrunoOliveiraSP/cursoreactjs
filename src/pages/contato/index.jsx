@@ -7,13 +7,19 @@ export default function Contato() {
 
 
     return (
-        <div className='pagina-contato'>
-            <Link to='/'>
-                <i className='fa fa-arrow-left voltar'></i>
-            </Link>
+        <div className='pagina-contato pagina'>
+            <header className='cabecalho'>
+                <Link to='/'>
+                    <i className='fa fa-arrow-left voltar'></i>
+                </Link>
+                <h1 className='titulo1'>Contato</h1>
+            </header>
 
-            <h1 className='titulo1'>Contato</h1>
-            <img className='icone' src='/assets/images/contato.png' />
+            <section className='secao'>
+                <h1>Entre em contato!</h1>
+                
+                <img className='icone' src='/assets/images/contato.png' />
+            </section>
         </div>
     )
 }
