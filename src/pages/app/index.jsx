@@ -8,17 +8,20 @@ export default function App() {
     <div className="pagina-app pagina">
       <header className='cabecalho'>
         <h1 className='titulo1'>
-          Estudos de ReactJS
+          Estudos de ReactJS &nbsp;
           <i className='fa fa-heart'></i>
         </h1>   
       </header>
 
       <section className='secao'>
         <h1> Estudando ReactJS</h1>
-        
+
         <ul>
           <li>
             <Link to='/contato'>Ir para Contato</Link>
+          </li>
+          <li>
+            <Link to='/eventos'>Ir para Eventos</Link>
           </li>
         </ul>
       </section>
