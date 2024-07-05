@@ -1,0 +1,47 @@
+
+.comp-cartao-filme {
+    padding: 20px;
+    box-shadow: 0px -14px 20px #e5e5e5;
+    border-radius: 15px;
+    position: relative;
+
+    img {
+        width: 200px;
+    }
+
+    p {
+        font: 500 20px 'Poppins';
+        text-align: center;
+    }
+
+    .classificacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font: 600 18px 'Poppins';
+        background-color: #28b31e;
+        color: #fff;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .c-l {
+        background-color: #28b31e;
+    }
+
+    .c-12, .c-14 {
+        background-color: #ebe22f;
+    }
+
+    .c-16 {
+        background-color: #dc3131;
+    }
+
+    .c-18 {
+        background-color: #000;
+    }
+}

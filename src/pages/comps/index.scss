@@ -30,9 +30,23 @@
             flex-wrap: wrap;
         }
 
-        
-        
+    }
 
+
+    .filmes {
+
+        .lista {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .entradas {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+        }
     }
 
     
