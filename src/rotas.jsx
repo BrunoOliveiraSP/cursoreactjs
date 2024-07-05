@@ -6,6 +6,7 @@ import Contato from './pages/contato';
 import NaoEncontrado from './pages/naoEncontrado';
 import Eventos from './pages/eventos';
 import VarEstado from './pages/varEstado';
+import Comps from './pages/comps';
 
 export default function Navegacao() {
 
@@ -16,6 +17,7 @@ export default function Navegacao() {
                 <Route path='/contato' element={<Contato />} />
                 <Route path='/eventos' element={<Eventos />} />
                 <Route path='/varestado' element={<VarEstado />} />
+                <Route path='/componentes' element={<Comps />} />
 
                 <Route path='*' element={<NaoEncontrado />} />
             </Routes>

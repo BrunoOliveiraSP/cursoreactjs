@@ -22,6 +22,9 @@ export default function App() {
           <li>
             <Link to='/varestado'>Ir para Variável de Estado</Link>
           </li>
+          <li>
+            <Link to='/componentes'>Ir para Componentes</Link>
+          </li>
         </ul>
       </section>
       
