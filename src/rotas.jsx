@@ -8,6 +8,7 @@ import Eventos from './pages/eventos';
 import VarEstado from './pages/varEstado';
 import Comps from './pages/comps';
 import RenderizacaoCondicional from './pages/rendeCond';
+import Efeitos from './pages/efeitos';
 
 export default function Navegacao() {
 
@@ -20,7 +21,8 @@ export default function Navegacao() {
                 <Route path='/varestado' element={<VarEstado />} />
                 <Route path='/componentes' element={<Comps />} />
                 <Route path='/rendecond' element={<RenderizacaoCondicional />} />
-
+                <Route path='/efeitos' element={<Efeitos />} />
+                
                 <Route path='*' element={<NaoEncontrado />} />
             </Routes>
         </BrowserRouter>

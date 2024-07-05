@@ -28,6 +28,9 @@ export default function App() {
           <li>
             <Link to="/rendecond">Ir para Renderização Condicional</Link>
           </li>
+          <li>
+            <Link to="/efeitos">Ir para Efeitos </Link>
+          </li>
         </ul>
       </section>
       

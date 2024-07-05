@@ -1,0 +1,16 @@
+
+.pagina-efeitos {
+
+
+    .sit-aluno {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+            min-width: auto;
+            width: 80px;
+            text-align: center;
+        }
+    }
+}
