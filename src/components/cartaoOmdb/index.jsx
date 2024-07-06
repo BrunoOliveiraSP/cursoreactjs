@@ -6,7 +6,9 @@ export default function CartaoOmdb(props) {
 
     return (
         <div className='comp-cartao-omdb'>
-            <img src={props.item.Poster} />
+            <div className='img'>
+                <img src={props.item.Poster} />
+            </div>
 
             <div className='info'>
                 <div className='titulos'>

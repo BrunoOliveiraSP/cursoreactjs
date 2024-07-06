@@ -8,10 +8,22 @@
     width: 400px;
     border-radius: 7px;
 
-    img {
-        width: 150px;
-    }
 
+    .img {
+        display: inline-table;
+        overflow: hidden;
+            
+        img {
+            width: 150px;
+            height: 200px;
+            transition: .6s;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    
     .info {
         display: flex;
         flex-direction: column;

@@ -20,6 +20,7 @@ export default function CartaoFilme(props) {
         <div className='comp-cartao-filme'>
             <img src={props.item.url} />
             
+            
             {props.item.estreia != '' &&
                 <div className='estreia'>
                     {props.item.destaque == true &&
